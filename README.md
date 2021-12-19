@@ -13,7 +13,7 @@ See classes "/src/main/java/de/soderer/utilities/crypto/Symmetric*Worker.java" f
 JUnit 4 tests included in "/src/test/de/soderer/utilities/crypto/CryptographicUtilitiesTest.java".
 
 ## Dependencies
-Of course this project has dependencies. I tested with Java 11 and this current bouncycastle versions of libs:
+Of course this project has dependencies. I tested with OpenJDK Java 11 and this current BouncyCastle versions of libs:
 - bcpkix-jdk15on-1.69.jar
 - bcprov-jdk15on-1.69.jar
 - bcutil-jdk15on-1.69.jar
