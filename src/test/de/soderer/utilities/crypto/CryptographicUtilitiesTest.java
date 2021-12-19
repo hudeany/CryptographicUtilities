@@ -23,6 +23,7 @@ import org.bouncycastle.pkcs.PKCS10CertificationRequest;
 import org.junit.Assert;
 import org.junit.Test;
 
+@SuppressWarnings("static-method")
 public class CryptographicUtilitiesTest {
 	private static KeyPair rsaKeyPairCache = null;
 	private static KeyPair elGamalKeyPairCache = null;
@@ -79,6 +80,7 @@ public class CryptographicUtilitiesTest {
 		return ecKeyPair;
 	}
 
+	@SuppressWarnings("unused")
 	private static KeyPair getDsaKeyPair() throws Exception {
 		if (dsaKeyPairCache == null) {
 			dsaKeyPairCache = CryptographicUtilities.generateDsaKeyPair(512);
@@ -87,6 +89,7 @@ public class CryptographicUtilitiesTest {
 		return dsaKeyPairCache;
 	}
 
+	@SuppressWarnings("unused")
 	private static KeyPair getDhKeyPair() throws Exception {
 		if (dhKeyPairCache == null) {
 			dhKeyPairCache = CryptographicUtilities.generateDhKeyPair(512);
@@ -385,6 +388,7 @@ public class CryptographicUtilitiesTest {
 	@Test
 	public void testKeyPairStringMethodsECDSA() {
 		try {
+			@SuppressWarnings("unused")
 			final String curveName = CryptographicUtilities.getEllipticCurveName(getEcKeyPair().getPrivate());
 			final String ecDsaKeyPairString = CryptographicUtilities.getStringFromKeyPair(getEcKeyPair(), null);
 			final PrivateKey ecDsaPrivateKey = CryptographicUtilities.getPrivateKeyFromString(ecDsaKeyPairString, null);
