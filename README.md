@@ -3,12 +3,16 @@ Examples and HowTos for BouncyCastle and Java Cryptography Extension (JCE)
 
 See class "/src/main/java/de/soderer/utilities/crypto/CryptographicUtilities.java" for handling of symmetric and asymmetric keys.
 
-See classes "/src/main/java/de/soderer/utilities/crypto/Asymmetric*Worker.java" for asymmetric enryption/secryption and signing/verficication of data.
+## Asymmetric Encrytion
+See classes "/src/main/java/de/soderer/utilities/crypto/Asymmetric*Worker.java" for asymmetric enryption/decryption and signing/verficication of data.
 
-See classes "/src/main/java/de/soderer/utilities/crypto/Symmetric*Worker.java" for symmetric enryption/secryption and signing/verficication of data.
+## Symmetric Encrytion
+See classes "/src/main/java/de/soderer/utilities/crypto/Symmetric*Worker.java" for symmetric enryption/decryption of data.
 
+## Testing
 JUnit 4 tests included in "/src/test/de/soderer/utilities/crypto/CryptographicUtilitiesTest.java".
 
+## Dependencies
 Of course this project has dependencies. I tested with Java 11 and this current bouncycastle versions of libs:
 - bcmail-jdk15on-1.69.jar
 - bcpg-jdk15on-1.69.jar
