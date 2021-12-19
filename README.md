@@ -3,10 +3,10 @@ Examples and HowTos for BouncyCastle and Java Cryptography Extension (JCE)
 
 See class "/src/main/java/de/soderer/utilities/crypto/CryptographicUtilities.java" for handling of symmetric and asymmetric keys.
 
-# Asymmetric Ecrytion
+# Asymmetric Encrytion
 See classes "/src/main/java/de/soderer/utilities/crypto/Asymmetric*Worker.java" for asymmetric enryption/decryption and signing/verficication of data.
 
-# Symmetric Ecrytion
+# Symmetric Encrytion
 See classes "/src/main/java/de/soderer/utilities/crypto/Symmetric*Worker.java" for symmetric enryption/decryption of data.
 
 JUnit 4 tests included in "/src/test/de/soderer/utilities/crypto/CryptographicUtilitiesTest.java".
