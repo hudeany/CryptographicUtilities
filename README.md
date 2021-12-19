@@ -14,6 +14,6 @@ JUnit 4 tests included in "/src/test/de/soderer/utilities/crypto/CryptographicUt
 
 ## Dependencies
 Of course this project has dependencies. I tested with OpenJDK Java 11 and this current BouncyCastle versions of libs:
-- bcpkix-jdk15on-1.69.jar
-- bcprov-jdk15on-1.69.jar
-- bcutil-jdk15on-1.69.jar
+- bcpkix-jdk15on-1.69.jar (See https://mvnrepository.com/artifact/org.bouncycastle/bcpkix-jdk15on)
+- bcprov-jdk15on-1.69.jar (See https://mvnrepository.com/artifact/org.bouncycastle/bcprov-jdk15on)
+- bcutil-jdk15on-1.69.jar (See https://mvnrepository.com/artifact/org.bouncycastle/bcutil-jdk15on)
