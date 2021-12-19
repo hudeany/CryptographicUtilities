@@ -145,9 +145,6 @@ import de.soderer.utilities.MapStringReader;
 import de.soderer.utilities.collection.CaseInsensitiveMap;
 import jdk.security.jarsigner.JarSigner;
 
-/**
- * May need installed "US_export_policy.jar" and "local_policy.jar" for unlimited key strength Download: http://www.oracle.com/technetwork/java/javase/downloads/jce-7-download-432124.html
- */
 public class CryptographicUtilities {
 	public static final String[] SYMMETRIC_CIPHERS = {
 			// Block chiffre
